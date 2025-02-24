@@ -2,11 +2,11 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
     <gazebo>
-        <plugin name="diff_drive" filename="libgazebo_ros_diffdrive.so">
+        <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
             <!-- Wheel information -->
-            <left_joint>left_wheel_joint</left_joint>
-            <right_joint>right_wheel_joint</right_joint>
-            <wheel_seperation>0.35</wheel_seperation>
+            <left_joint>left_back_wheel_joint</left_joint>
+            <right_joint>right_back_wheel_joint</right_joint>
+            <wheel_seperation>0.30</wheel_seperation>
             <wheel_diameter>0.07</wheel_diameter>
 
             <!-- Limits -->
